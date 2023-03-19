@@ -58,8 +58,8 @@ package Module_1.FanApp;
             return radius;
         }
         //Mutator for radius
-        public void setRadius(double radius){
-            this.radius = radius;
+        public void setRadius(double newRadius){
+            radius = newRadius;
         }
 
         //Accessor for color
@@ -67,8 +67,8 @@ package Module_1.FanApp;
             return color;
         }
         //Mutator for color
-        public void setColor(String color){
-            this.color = color;
+        public void setColor(String newColor){
+            color = newColor;
         }
 
         //An argument constructor that creates a fan using the four fields
@@ -83,8 +83,9 @@ package Module_1.FanApp;
             
             }
             else {
-                return "\nFan color: " + color + ", radius: " + radius + "\nfan is off\n";
+                return "\nFan color: " + color + ", radius: " + radius + " fan is off\n";
             }
 
         }
  }
+
