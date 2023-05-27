@@ -1,9 +1,9 @@
 package Module_3.CustomerAccountApp;
 public class CustomerDB {
 
-    Customer Kobe = new Customer("Kobe", "6509 s89th Cir", "Ralston", "68127");
-    Customer Alyssa = new Customer("Alyssa", "6509 s89th Cir", "Ralston", "68127");
-    Customer Liz = new Customer("Liz", "6509 s89th Cir", "Ralston", "68127");
+    Customer Kobe = new Customer("Kobe Alexander", "6509 s89th Cir", "Ralston", "68127");
+    Customer Alyssa = new Customer("Alyssa Alexander", "6509 s89th Cir", "Ralston", "68127");
+    Customer Liz = new Customer("Liz Bernhart", "6509 s89th Cir", "Ralston", "68127");
     Customer Default = new Customer();
     
     public Customer getCustomer(int customerIDString, Customer customersName)
