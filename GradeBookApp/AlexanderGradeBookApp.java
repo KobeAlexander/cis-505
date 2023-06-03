@@ -1,3 +1,7 @@
+/**
+ * Alexander, K. (2023). CIS505-T301 Intermediate Java Programming. Bellevue University, all rights reserved. 
+ */
+
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.geometry.Insets;
